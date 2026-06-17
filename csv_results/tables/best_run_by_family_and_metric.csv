@@ -1,0 +1,21 @@
+family,metric,best_run,best_run_label,best_value
+basic_discriminator,eval_nelbo,guidance_basicdisc_end_dw1e-4,Basic end disc=1e-4,3.1273484230041504
+basic_discriminator,train_nelbo,guidance_basicdisc_end_dw1e-4,Basic end disc=1e-4,3.16546630859375
+basic_discriminator,eval_fid,guidance_basicdisc_end_dw1e-4,Basic end disc=1e-4,199.59153747558597
+basic_discriminator,eval_is_mean,guidance_basicdisc_middle_end_dw1e-4,Basic middle+end disc=1e-4,2.821125268936157
+basic_discriminator,eval_ssim,guidance_basicdisc_middle_dw1e-4,Basic middle disc=1e-4,0.0396657027304172
+advanced_reasoning,eval_nelbo,guidance_reasoning_middle_maskmatched_rw2e-3,Reasoning middle mask-matched reason=2e-3,3.120337009429932
+advanced_reasoning,train_nelbo,guidance_reasoning_middle_end_samemaskfull_rw5e-4,Reasoning middle+end same-mask-full reason=5e-4,3.154604434967041
+advanced_reasoning,eval_fid,guidance_advanceddisc_middle_dw1e-4,AdvDisc middle disc=1e-4,201.24449157714844
+advanced_reasoning,eval_is_mean,guidance_reasoning_middle_maskmatched_rw5e-4,Reasoning middle mask-matched reason=5e-4,2.910430908203125
+advanced_reasoning,eval_ssim,guidance_advanceddisc_middle_dw5e-4,AdvDisc middle disc=5e-4,0.0430099181830883
+counterfactual,eval_nelbo,counterfactual_utilitycf_middle_cfw2e-3,Utility CF cf=2e-3,3.129310131072998
+counterfactual,train_nelbo,counterfactual_utilitycf_middle_cfw2e-3,Utility CF cf=2e-3,3.1578011512756348
+counterfactual,eval_fid,counterfactual_utilitycf_middle_cfw2e-3,Utility CF cf=2e-3,201.89991760253903
+counterfactual,eval_is_mean,counterfactual_scalarcf_middle_cfw1e-4,Scalar CF cf=1e-4,2.947298765182495
+counterfactual,eval_ssim,counterfactual_scalarcf_middle_cfw5e-4,Scalar CF cf=5e-4,0.0465532429516315
+scheduling,eval_nelbo,scheduler_curriculum_obs0.50_to_uniform,Curriculum obs0.50 to uniform,3.126053094863892
+scheduling,train_nelbo,scheduler_curriculum_obs0.50_to_uniform,Curriculum obs0.50 to uniform,3.1563363075256348
+scheduling,eval_fid,scheduler_stratified_timestep,Stratified timestep,202.84359741210935
+scheduling,eval_is_mean,scheduler_adaptive_alpha1.0_mix0.10,Adaptive a1.0 mix0.10,2.9671990871429443
+scheduling,eval_ssim,scheduler_constrained_adaptive_alpha0.75_mix0.15,Constrained adaptive a0.75 mix0.15,0.0422123111784458

@@ -1,0 +1,16 @@
+\begin{tabular}{llrrrrrrrrr}
+\toprule
+run & family & train_nelbo & eval_nelbo & train_loss & train_ce & grad_norm & eval_fid & eval_is_mean & eval_is_std & eval_ssim \\
+\midrule
+scheduler_adaptive_alpha0.5_mix0.25 & scheduling & 3.1630 & 3.1338 & 3.1635 & 0.5032 & 4.9360 & 207.4979 & 2.7852 & 0.2519 & 0.0300 \\
+scheduler_constrained_adaptive_alpha0.5_mix0.25 & scheduling & 3.1714 & 3.1313 & 3.1719 & 0.4759 & 5.6772 & 205.4498 & 2.7199 & 0.5766 & 0.0363 \\
+scheduler_curriculum_obs0.50_to_uniform & scheduling & 3.1563 & 3.1261 & 3.1568 & 0.4473 & 4.5921 & 212.1917 & 2.7675 & 0.2730 & 0.0371 \\
+scheduler_adaptive_alpha0.75_mix0.15 & scheduling & 3.1618 & 3.1344 & 3.1623 & 0.5414 & 5.0305 & 210.1409 & 2.5894 & 0.3363 & 0.0227 \\
+scheduler_constrained_adaptive_alpha0.75_mix0.15 & scheduling & 3.1602 & 3.1268 & 3.1607 & 0.4908 & 4.9925 & 207.2935 & 2.6995 & 0.4618 & 0.0422 \\
+scheduler_curriculum_obs0.75_to_uniform & scheduling & 3.1767 & 3.1377 & 3.1772 & 0.4506 & 4.8279 & 205.3231 & 2.6457 & 0.2913 & 0.0215 \\
+scheduler_adaptive_alpha1.0_mix0.10 & scheduling & 3.1724 & 3.1393 & 3.1730 & 0.5808 & 5.0617 & 204.3573 & 2.9672 & 0.3399 & 0.0261 \\
+scheduler_constrained_adaptive_alpha1.0_mix0.10 & scheduling & 3.1568 & 3.1268 & 3.1573 & 0.5048 & 4.8526 & 206.0790 & 2.9496 & 0.3764 & 0.0393 \\
+scheduler_curriculum_obs0.90_to_uniform & scheduling & 3.1739 & 3.1446 & 3.1744 & 0.4504 & 5.1630 & 209.6459 & 2.7774 & 0.3015 & 0.0315 \\
+scheduler_stratified_timestep & scheduling & 3.1726 & 3.1437 & 3.1731 & 0.4478 & 5.3698 & 202.8436 & 2.6965 & 0.4118 & 0.0415 \\
+\bottomrule
+\end{tabular}
